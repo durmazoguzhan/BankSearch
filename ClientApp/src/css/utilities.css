@@ -1,0 +1,61 @@
+.text-primary-color {
+  color: var(--primary-color);
+}
+
+.text-primary-light-color {
+  color: var(--primary-light-color);
+}
+
+.text-secondary-color {
+  color: var(--secondary-color);
+}
+
+.text-white-color {
+  color: var(--white-color);
+}
+
+.text-light-gray-color{
+    color:var(--light-gray-color);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.bg-primary-light-color {
+  background-color: var(--primary-light-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.bg-white-color {
+  background-color: var(--white-color);
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E")!important;
+}
+
+.focus-text-white:focus {
+  color: var(--white-color);
+}
+
+.focus-border-0:focus {
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.hover-primary-light-color:hover {
+  color: var(--primary-light-color);
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.hover-cursor-default:hover{
+    cursor:default !important;
+}

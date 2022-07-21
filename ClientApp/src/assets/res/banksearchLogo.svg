@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 220" width="288" height="220">
+	<title>banksearchLogo-svg</title>
+	<style>
+    .s0 { fill: #bf4365 }
+    .s1 { fill: #ef4365 }
+
+  </style>
+	<g id="SvgjsG1008">
+		<g id="Layer">
+			<path id="Layer" fill-rule="evenodd" class="s0" d="m222 182h-120c-16.6 0-30-13.4-30-30v-120c0-16.6 13.4-30 30-30h120c16.6 0 30 13.4 30 30v120c0 16.6-13.4 30-30 30zm-96-36h84v-69c0-18.2-14.8-33-33-33h-69v84c0 9.9 8.1 18 18 18z"/>
+			<path id="Layer" fill-rule="evenodd" class="s1" d="m186 218h-120c-16.6 0-30-13.4-30-30v-120c0-16.6 13.4-30 30-30h120c16.6 0 30 13.4 30 30v120c0 16.6-13.4 30-30 30zm-81-36h75v-90c0-9.9-8.1-18-18-18h-72c-9.9 0-18 8.1-18 18v57c0 18.2 14.8 33 33 33z"/>
+			<path id="Layer" class="s0" d="m252 122v30c0 16.5-13.5 30-30 30h-84v-36h60c9.9 0 18-8.1 18-18v-6z"/>
+		</g>
+	</g>
+</svg>

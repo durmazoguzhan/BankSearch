@@ -1,0 +1,73 @@
+<div id="loan-section" class="personal-loan bg-secondary-color d-flex justify-content-center align-items-center pt-5 pb-5">
+  <div class="container">
+    <!--Title Area-->
+    <div class="d-flex align-items-center text-primary-light-color">
+      <h2><i class="me-2 fa fa-align-right"></i>İhtiyaç Kredisi</h2>
+    </div>
+
+    <!--Input Area-->
+    <div class="d-flex justify-content-center align-items-center gap-5 pt-4">
+      <div class="input-section">
+        <div class="input-group">
+          <input #krediTutari id="krediTutari" name="krediTutari" type="number" class="focus-text-white focus-border-0 text-white-color form-control bg-transparent border-0 text-end" value="10000" min="1000" max="1000000000" inputmode="numeric">
+          <div class="input-group-append">
+            <span class="text-white-color input-group-text bg-transparent border-0">₺</span>
+          </div>
+        </div>
+      </div>
+      <div class="input-section">
+        <select #krediVadesi id="krediVadesi" name="krediVadesi" class="focus-text-white focus-border-0 form-select bg-transparent border-0 ps-5 pe-5 text-white-color">
+          <option *ngFor="let kredivadesi of krediVadeleri" value="{{kredivadesi.aySayisi}}">{{kredivadesi.aySayisi}} Ay</option>
+        </select>
+      </div>
+      <div>
+        <a (click)="CalculatePersonalLoan(krediTutari.value,krediVadesi.value)" class="button-primary">Hesapla</a>
+      </div>
+    </div>
+
+    <!--Personal Loan Boxes Area-->
+    <div class="d-flex justify-content-center gap-5 pt-5 pb-2">
+      <div *ngFor="let personalloan of personalLoans" class="d-flex flex-column justify-content-between input-section text-white-color w-25 p-3">
+        <div class="bank-logo-area d-flex h-25 align-items-center">
+            <img src="../../assets/res/{{personalloan.bankaAdi}}.png" class="w-100 p-3" />
+        </div>
+        <div class="pt-5 d-flex flex-column gap-1">
+          <div class="d-flex justify-content-center">
+            <h4 class="text-center w-100">{{personalloan.bankaAdi}}</h4>
+          </div>
+          <div class="d-flex flex-row gap-1 justify-content-center align-items-center pt-4">
+            <h5 class="text-center">Faiz Tutarı: {{personalloan.faizTutari|currency:'TRY':'symbol-narrow'}}</h5>
+          </div>
+          <div class="d-flex flex-row justify-content-between align-items-center pt-5">
+            <div class="d-flex">
+              <h6>Faiz</h6>
+            </div>
+            <div class="d-flex gap-1">
+              <h6>%</h6>
+              <h6>{{personalloan.faiz|number}}</h6>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-between align-items-center">
+            <div class="d-flex">
+              <h6>Aylık Taksit</h6>
+            </div>
+            <div class="d-flex gap-1">
+              <h6>{{personalloan.aylikTaksit|currency:'TRY':'symbol-narrow'}}</h6>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-between align-items-center">
+            <div class="d-flex">
+              <h6>Toplam Ödeme</h6>
+            </div>
+            <div class="d-flex gap-1">
+              <h6>{{personalloan.toplamOdeme|currency:'TRY':'symbol-narrow'}}</h6>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+          <a href="{{personalloan.basvuruLinki}}" target="_blank" class="button-primary w-100">Hızlı Başvuru</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

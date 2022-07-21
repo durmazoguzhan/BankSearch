@@ -1,0 +1,6 @@
+.input-section {
+  background-color: #ffffff40;
+  border-top: 1px solid #ffffff60;
+  border-radius: 0.8rem;
+  backdrop-filter: blur(0.75rem);
+}
