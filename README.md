@@ -1,6 +1,6 @@
 # BankSearch App - Enqura Summer Intern
 
-## Technoologies
+## Technologies
 - Angular 14
 - .NET 6
 - Entity Framework
