@@ -1,9 +1,9 @@
-#BankSearch App - Enqura Summer Intern
+# BankSearch App - Enqura Summer Intern
 
-##Technoologies
+## Technoologies
 - Angular 14
 - .NET 6
 - Entity Framework
 
-##Using
+## Using
 - Run script.sql file and install database; on this directory: (localdb)\MSSQLLocalDB) or move database to your User folder.
