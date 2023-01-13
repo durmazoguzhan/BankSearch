@@ -10,17 +10,6 @@
 ## Using
 - Run script.sql file and install database; on this directory: (localdb)\MSSQLLocalDB) or move database to your User folder.
 
-## Architecture
-
-### System Architecture
-![image](https://user-images.githubusercontent.com/81313884/212362500-debee130-0962-43d9-9f39-aed6c80c60df.png)
-
-### Database Architecture
-![image](https://user-images.githubusercontent.com/81313884/212362567-dbb46bfc-5357-41ee-bc79-bb03a71f8c1b.png)
-
-### Class/Object Architecture
-![image](https://user-images.githubusercontent.com/81313884/212362611-e53c6903-0220-4720-9ad7-636a32d861cf.png)
-
 ## Pages
 
 ### Homepage
@@ -34,3 +23,14 @@
 
 ### About
 ![image](https://user-images.githubusercontent.com/81313884/212364011-1d62a187-fa52-4701-a297-796d83ba4bd7.png)
+
+## Architecture
+
+### System Architecture
+![image](https://user-images.githubusercontent.com/81313884/212362500-debee130-0962-43d9-9f39-aed6c80c60df.png)
+
+### Database Architecture
+![image](https://user-images.githubusercontent.com/81313884/212362567-dbb46bfc-5357-41ee-bc79-bb03a71f8c1b.png)
+
+### Class/Object Architecture
+![image](https://user-images.githubusercontent.com/81313884/212362611-e53c6903-0220-4720-9ad7-636a32d861cf.png)
